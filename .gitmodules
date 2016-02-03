@@ -1,0 +1,15 @@
+[submodule "blattabgabe"]
+	path = blattabgabe
+	url = git@github.com:phiresky/blattabgabe.git
+[submodule "mima"]
+	path = mima
+	url = https://github.com/phiresky/mima
+[submodule "cities"]
+	path = cities
+	url = https://github.com/phiresky/procedural-cities
+[submodule "lam_fill"]
+	path = lib/lam_fill
+	url = https://github.com/phiresky/lam_fill
+[submodule "tutorium"]
+	path = tutorium
+	url = https://github.com/phiresky/tutorium-website
