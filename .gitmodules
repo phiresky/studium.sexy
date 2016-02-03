@@ -1,6 +1,6 @@
 [submodule "blattabgabe"]
 	path = blattabgabe
-	url = git@github.com:phiresky/blattabgabe.git
+	url = https://github.com/phiresky/blattabgabe
 [submodule "mima"]
 	path = mima
 	url = https://github.com/phiresky/mima
