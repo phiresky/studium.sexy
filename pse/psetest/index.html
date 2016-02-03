@@ -1,0 +1,24 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>PSE proto</title>
+<link rel="stylesheet" href="bootstrap.min.css">
+<style>
+	#drop {
+		margin:0 auto;
+		text-align:center;
+		font-size:500%;
+	}
+	.dragging { background:lightgray; }
+	.graph { padding:1em; margin:1em; border:1px solid gray; }
+</style>
+<div class='container-fluid'>
+	<div id=drop>Drop WDI_Data.csv here</div>
+	<input type=file>
+	<div id='outputGraph'>
+		<div id='template' style='visibility:hidden' class='col-lg-4 col-md-6 col-sm-12 col-xs-12'>
+			<div class='graph'></div>
+		</div>
+	</div>
+</div>
+<script src="libs.min.js"></script>
+<script src="main.js"></script>
