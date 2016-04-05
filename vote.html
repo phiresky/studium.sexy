@@ -1,0 +1,9 @@
+<meta charset=utf8>
+<h1> Abstimmung</h1>
+	<button onclick="vote()">Für 10:00 Uhr stimmen</button>
+	<button onclick="vote()">Für 14:00 Uhr stimmen</button>
+<script>
+function vote() {
+	document.body.innerHTML="<h1>Vielen Dank!</h1> <p>Sie haben für 14:00 Uhr gestimmt.</p><p>Bisheriges Ergebnis: <ul><li>10:00 Uhr: 1 Stimme<li>14:00 Uhr: "+((Math.random()*10 + 10)|0)+" Stimmen.</ul></p>";
+}
+</script>
